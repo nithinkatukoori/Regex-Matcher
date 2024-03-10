@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('regex-cover.jpg');
+}
+
+.container {
+    width: 80%; /* Adjust width as needed */
+    margin: 20px auto;
+    background-color: #5aa4618a; /* Container background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+   
+}
+
+input[type="text"],
+textarea { 
+    /* Take up full width */
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    margin-bottom: 10px;
+    border: 1px solid #00000032; /* Input border */
+    border-radius: 5px; /* Input border radius */
+    resize: vertical; /* Allow vertical resizing of textarea */
+    background-color: #377953a9;
+    color: #ffffff;
+}
+
+button {
+    width: auto;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    background-color: #00ff80; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px; /* Button border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00b35a; /* Hover background color */
+}
+
+#output {
+    color: white;
+    margin-top: 20px; /* Adjust margin as needed */
+    padding: 10px;
+    border: 1px solid #111010; /* Output border */
+    border-radius: 5px; /* Output border radius */
+    background-color: #0b0b0b8e; /* Output background color */
+}
+#regexForm{
+    background-color: #111010;
+    padding:20px;
+}
